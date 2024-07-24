@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+<!-- 
+import { motion, useInView } from "framer-motion";
+
+const PopAnimation = () => {
+  const ref = React.createRef();
+  const isInView = useInView(ref);
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ scale: 0.5 }}
+      animate={isInView ? { scale: 1 } : { scale: 0.5 }}
+      transition={{
+        duration: 0.5,
+        ease: "easeInOut",
+        repeat: Infinity,
+        repeatType: "reverse"
+      }}
+      className="pop-animation"
+    >
+      <p>Pop!</p>
+    </motion.div>
+  );
+}; -->
