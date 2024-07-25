@@ -45,7 +45,7 @@ const Home = () => {
           />
            </span>
           </h1>
-          <GradientButton>Click me!</GradientButton>
+          <Link to={'/Mysha fatima (3).png'}><GradientButton>Download CV</GradientButton></Link>
             </div>
     </motion.div>
     
